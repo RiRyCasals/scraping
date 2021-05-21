@@ -61,6 +61,7 @@ def download_images_from_urls(img_urls, save_directory_path):
 
         if (i + 1) % 10 == 0: # 最終的に削除
             print('{} / {} done'.format((i+1), len(img_urls)))
+            break # for verification
 
     print('complete')
 

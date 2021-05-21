@@ -1,0 +1,1 @@
+sudo docker container run -it --mount type=bind,src=/home/riry/WorkSpace/scraping/,dst=/home/ scraping:test
